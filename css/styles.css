@@ -1,1 +1,42 @@
+body {
+font-size: 16px;
+background-color: #FFFF00;
+font-family: 'Roboto', sans-serif;
+}
+/** Header**/
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+    height: 75px;
+}
+.navbar-brand{ 
+padding: 25px;
+}
+.navbar-brand h1{           /* Name of company */
+    left: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+  
+    }
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    text-align: center;
+}
+#nav-list a:hover {
+    background-color: aquamarine;
+}
+#nav-list a span {
+font-size: 1.8em;
+}
 
