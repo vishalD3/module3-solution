@@ -1,11 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
 font-size: 16px;
-background-color: #FFFF00;
+background-color: #whitesmoke;
 font-family: 'Roboto', sans-serif;
 }
+
 /** Header**/
-#header-nav {
-    background-color: grey;
+.navbar-default {
+    background-color: gray;
     border-radius: 0;
     border: 0;
     height: 75px;
@@ -14,29 +19,156 @@ font-family: 'Roboto', sans-serif;
 padding: 25px;
 }
 .navbar-brand h1{           /* Name of company */
-    left: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 1.5em;
+    color: White;
+    font-size: 1.8em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     line-height: .75;
+    margin: -5px;
+    padding: 5px;
+    vertical-align: middle;
   
     }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
+
 }
 #nav-list {
-    margin-top: 10px;
+    margin-top: 20px;
+
+
+    
 }
 #nav-list a {
     text-align: center;
+    background-color: lightgrey;
+    border: 2px solid gray;
 }
 #nav-list a:hover {
-    background-color: aquamarine;
+    background-color: lightgray;
 }
 #nav-list a span {
-font-size: 1.8em;
+font-size: 3em;
+
 }
 
+.navbar-toggle {
+
+    border: 3px solid white;
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+
+.navbar-toggle:focus{
+
+    background-color: transparent;
+}
+
+.navbar-collapse {
+
+    padding-bottom: 10px;
+
+}
+
+.icon-bar {
+
+    background-color: white;
+    border: 1px solid white;
+}
+
+
+.menu-item{
+
+    font-weight: bold;
+    font-size: 129%;
+}
+
+/* End Header */
+
+
+
+
+/** Content of the Page **/
+
+.main-title{
+
+    font-weight: bold;
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    color: saddlebrown;
+}
+
+.itemName{
+
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+
+p{
+ 0 0 10px;
+ background-color: lightgray;
+ border: 2px solid black;
+ padding: 5px
+}
+
+.container-box{
+
+    height: auto;
+    width: auto;
+    color: black;
+    padding: 28px;
+    margin: -9px;
+
+}
+
+.row{
+
+    width: 100%;
+    margin: 0px;
+}
+
+/******* large devices only *******/
+@media (min-width: 1200px){
+
+{
+    float: left;
+}
+
+}
+
+/******* Medium devices only *******/
+@media (min-width: 992px) and (max-width: 1199px){
+  
+    {
+    float: left;
+}
+
+}
+
+/******* small devices only *******/
+@media (min-width: 768px) and (max-width: 991px){
+   
+   {
+    float: left;
+}
+
+
+}
+
+/******* extra small devices only *******/
+@media (min-width: 767px){
+
+    {
+    float: left;
+}
+    
+}
