@@ -112,6 +112,10 @@ font-size: 3em;
 
 }
 
+#container a{
+
+    font-weight: bold;
+}
 
 p{
  0 0 10px;
@@ -172,3 +176,4 @@ p{
 }
     
 }
+
